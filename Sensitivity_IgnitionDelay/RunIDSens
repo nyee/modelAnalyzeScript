@@ -1,0 +1,9 @@
+#$ -o outIDSens.txt
+#$ -e errIDSens.txt
+#$ -l long
+#$ -l h_rt=120:00:00
+#$ -l mem_total=4G
+#$ -m e
+#$ -M zhangp@mit.edu
+#$ -N IDSen_X05
+python IDT_SENSITIVITY.py
